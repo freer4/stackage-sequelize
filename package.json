@@ -1,0 +1,27 @@
+{
+    "name": "stackage-sequelize",
+    "version": "0.0.1",
+    "description": "Extend Sequelize ORM to your front-end",
+    "main": "index.js",
+    "exports": {
+        ".": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/freer4/stackage-sequelize.git"
+    },
+    "keywords": [],
+    "author": "Freer4",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/freer4/stackage-sequelize/issues"
+    },
+    "homepage": "https://stackagejs.com",
+    "dependencies": {
+        "inflection": "^3.0.2",
+        "sequelize": "^6.37.7"
+    }
+}
